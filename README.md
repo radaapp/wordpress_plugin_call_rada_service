@@ -3,3 +3,4 @@ Source code of wordpress plugin for website owner to place an order into Rada sy
 This could be meaningfull utilities for your website and more convenience for your user also keep them longer stay in your web.
 
 Rada services now available in Vietnam and soon be expand to the region.
+For sample of how it's work, you can take a look here: http://santa.rada.asia/rada-one-click/
