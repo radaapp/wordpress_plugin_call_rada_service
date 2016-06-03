@@ -375,7 +375,10 @@ class Rada_Widget extends WP_Widget {
 			'title' =>  __( 'Call Rada Service', 'text_domain' ), 
 	        'apiurl' => 'http://bpotech.com.vn/cms/test/test.php',
 	        'apikey' => 'radaweb',
-	        'uid' => '927',
+                /**
+                * uid: Website ID, to get the id, you need to contact to Rada team to get your ID.
+                */	        
+	        'uid' => 'xxx',
 	        'serviceid' => '2',
 	        'securitycode' => '8e2f79a80a7d06b531146a6c6b2793c4',
 	        'datasitekey' => '6LeDkCETAAAAAGaYyeSwpj6cNwnPPMOmKmJ8k9xA',
