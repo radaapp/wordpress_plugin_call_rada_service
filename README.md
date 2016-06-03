@@ -4,3 +4,5 @@ This could be meaningfull utilities for your website and more convenience for yo
 
 Rada services now available in Vietnam and soon be expand to the region.
 For sample of how it's work, you can take a look here: http://santa.rada.asia/rada-one-click/
+
+Thanks for BPOTech team for your initiative of this contribution.
