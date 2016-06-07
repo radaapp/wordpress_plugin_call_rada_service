@@ -15,7 +15,7 @@ class Rada_Widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
 			'widget_rada', // Base ID
-			__( 'Call Rada Service', 'text_domain' ), // Name
+			__( 'Book Rada repair service for Home appliances', 'text_domain' ), // Name
 			array( 'description' => __( 'A Rada Widget', 'text_domain' ), ) // Args
 		);
 	}
@@ -372,7 +372,7 @@ class Rada_Widget extends WP_Widget {
 	 */
 	public function form( $instance ) {
 		$defaults = array(
-			'title' =>  __( 'Call Rada to book repair service for Home appliances', 'text_domain' ), 
+			'title' =>  __( 'Book Rada repair service for Home appliances', 'text_domain' ), 
                 /**
                 * apiurl: Your website link contain the module.
                 */			
