@@ -18,6 +18,10 @@ Request type: POST
 
 Return: 
 
-Success: 200 (Rada success to received the request order from customer)
-Fail: 401 (Wrong Uid or Api_key)
-Fail: 400 (Network problem or unidentify)
+200: Success - (Rada success to received the request order from customer)
+401: Fail - (Wrong Uid or Api_key)
+400: Fail - (Wrong parameter or input format)
+100: Fail - (Wrong service)
+101: Fail - (Services not ready to response, user need be back in a minute)
+102: Fail - (There're no services provider in the requested area)
+Null: Fail - (Missing Long/Last or network problem)
