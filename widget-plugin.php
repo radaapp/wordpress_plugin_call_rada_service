@@ -372,12 +372,15 @@ class Rada_Widget extends WP_Widget {
 	 */
 	public function form( $instance ) {
 		$defaults = array(
-			'title' =>  __( 'Call Rada Service', 'text_domain' ), 
-	        'apiurl' => 'http://bpotech.com.vn/cms/test/test.php',
-	        'apikey' => 'radaweb',
+			'title' =>  __( 'Call Rada to book repair service for Home appliances', 'text_domain' ), 
                 /**
-                * uid: Website ID, to get the id, you need to contact to Rada team to get your ID.
+                * apiurl: Your website link contain the module.
+                */			
+	        'apiurl' => 'http://bpotech.com.vn/cms/test/test.php',
+                /**
+                * uid & apikey: To get the id, you need to contact to Rada team to get your own ID.
                 */	        
+	        'apikey' => 'radaweb',
 	        'uid' => 'xxx',
 	        'serviceid' => '2',
 	        'securitycode' => '8e2f79a80a7d06b531146a6c6b2793c4',
