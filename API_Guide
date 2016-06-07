@@ -6,24 +6,18 @@ Input variable:
 
 1. Uid: [Interger(11)] 375 (To get the id, you need to contact Rada team for your own)
 2. Api_key: [String(40)](To get the id, you need to contact Rada team for your own)
-// RSA Key: Will be update in the next version
-// Customer_Name: Will be update in the next version
-3. Customer: [String(12)] End user telephone number for the service to call back for more details
-4. Service_id: [Interger(4)]2 (1 for Bike & Car, 2 for Home)
-5. Message: [String(160)] ví dụ (sửa điều hòa, thay lọc nước,…) (option)
-6. Latitude: [double] Kinh độ khách hàng
-7. Longitude: [double] Vĩ độ khách hàng
-8. Location: [String(160)] địa chỉ nhập vào (option)
+3. Customer_Name: Will be update in the next version
+4. Customer: [String(12)] End user telephone number for the service to call back for more details
+5. Service_id: [Interger(4)]2 (1 for Bike & Car, 2 for Home)
+6. Message: [String(160)] Problem on customer equiptment (option)
+7. Latitude: [double]
+8. Longitude: [double]
+9. Location: [String(160)] Customer address (option)
 
+Request type: POST
 
+Return: 
 
-
-Kiểu request: POST
-
-Thành công: 200 (hệ thống rada đã tiếp nhận thành công yêu cầu của khách hàng)
-
-Không thành công: 401, sai Uid hoặc sai Api_key
-
-Không thành công: 400, các lỗi không xác định
-
-Người viết tài liệu: Hoàng Văn Hậu, 0984380003
+Success: 200 (Rada success to received the request order from customer)
+Fail: 401 (Wrong Uid or Api_key)
+Fail: 400 (Network problem or unidentify)
