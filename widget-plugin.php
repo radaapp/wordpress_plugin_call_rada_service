@@ -5,7 +5,7 @@ Description: Site specific code changes for bpotech.com.vn
 Version: 0.1
 Author: Phu TV
 Author URI: http://bpotech.com.vn
-License: GPLv2
+License: MIT
 */
 class Rada_Widget extends WP_Widget {
 
