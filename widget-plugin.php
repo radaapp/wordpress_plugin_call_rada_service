@@ -515,39 +515,39 @@ function process_add_transfer() {
 				}
 				else if ($code == 400) {
 
-					$result['message'] = 'Thiếu parameters hoặc sai format';
+					$result['message'] = 'Thiếu parameters hoặc sai format!';
 
 				}
 				else if ($code == 100) {
 
-					$result['message'] = 'Service không hợp lệ';
+					$result['message'] = 'Service không hợp lệ!';
 
 				}
 				else if ($code == 101) {
 
-					$result['message'] = 'Trạng thái request không sẵn sàng';
+					$result['message'] = 'Hệ thống chưa sẵn sàng tiếp nhận ngay, xin trở lại sau 1 phút nữa!';
 
 				}
 				else if ($code == 102) {
 
-					$result['message'] = 'Xung quanh không có SP';
+					$result['message'] = 'Không có SP khu vực bạn đặt!';
 
 				}
 				else if ($code == 200) {
 
-					$result['message'] = 'Hệ thống rada đã tiếp nhận thành công yêu cầu';
+					$result['message'] = 'Rada đã tiếp nhận thành công yêu cầu, thợ sẽ liên hệ với bạn sau ít phút nữa!';
 
 				}
 				else {
 
 					if ($code == null) {
 
-						$result['message'] = 'Thiếu tọa độ Lat - Lng';
+						$result['message'] = 'Thiếu tọa độ Lat - Long';
 
 					}
 					else {
 
-						$result['message'] = 'Xảy ra lỗi';
+						$result['message'] = 'Lỗi kết nối, đề nghị bạn trở lại sau ít phút hoặc liên hệ với chúng tôi nếu lỗi này lặp lại nhiều lần!';
 
 					}
 
