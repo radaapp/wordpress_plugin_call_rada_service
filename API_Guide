@@ -19,6 +19,18 @@ Request type: POST
 Return: 
 
 200: Success - (Rada success to received the request order from customer)
+
+Json details
+{
+  "status": 200, 
+  "message": "Success",
+  "data": {
+    "request_id": 3589,  // Order ID - Mã đơn hàng
+    "create_date": "2016-06-09 15:10:17",
+    "state": 0
+  }
+}
+
 401: Fail - (Wrong Uid or Api_key)
 400: Fail - (Wrong parameter or input format)
 100: Fail - (Wrong service)
