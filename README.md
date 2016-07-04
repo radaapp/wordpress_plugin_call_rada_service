@@ -6,7 +6,10 @@ This could be meaningfull utilities for your website and more convenience for yo
 
 Rada services now available in Vietnam and soon be expand to the region.
 
-For sample of how it's work, you can take a look here: http://santa.rada.asia/rada-one-click/
+For sample of how it's work, you can take a look here: 
+
+- http://santa.rada.asia/rada-one-click/
+- http://home.rada.asia/rada-one-click/
 
 Thanks for BPOTech team for your initiative of this contribution.
 
@@ -20,7 +23,10 @@ Mã nguồn wordpress plugin dành cho các chủ website sử dụng cho phép 
 
 Dịch vụ sửa chữa Rada hiện tại có mặt tại Việt Nam và sẽ sớm mở rộng ra khu vực.
 
-Để xem mã nguồn này hoạt động như thế nào, bạn có thể truy cập theo liên kết sau: http://santa.rada.asia/rada-one-click/
+Để xem mã nguồn này hoạt động như thế nào, bạn có thể truy cập theo liên kết sau: 
+
+- http://santa.rada.asia/rada-one-click/
+- http://home.rada.asia/rada-one-click/
 
 Chúng tôi chân thành cảm ơn đội ngũ BPOTech cho những đóng góp đầu tiên khởi tạo nên plugin này.
 
