@@ -1,8 +1,8 @@
 API guide to call Rada service
 
-HttpRequest: http:// apitest.rada.asia/partner/create_request (it's will soon be change to https sortly)
-
-Input variable:
+*** HttpRequest: http:// apitest.rada.asia/partner/create_request (it's will soon be change to https sortly)
+Des: Send request to Rada Supplyer around
+Input variables:
 
 1. Uid: [Interger(11)] 375 (To get the id, you need to contact Rada team for your own)
 2. Api_key: [String(40)](To get the id, you need to contact Rada team for your own)
@@ -37,3 +37,18 @@ Json details
 101: Fail - (Services not ready to response, user need be back in a minute)
 102: Fail - (There're no services provider in the requested area)
 Null: Fail - (Missing Long/Last or network problem)
+
+*** HttpRequest: http://api.rada.asia/static/partner/get_services
+
+Description: Get services list from Rada
+
+Input variables:
+
+1. Uid: [Interger(11)] 375 (To get the id, you need to contact Rada team for your own)
+2. Api_key: [String(40)](To get the id, you need to contact Rada team for your own)
+
+Input: POST: uid, api_key
+
+Return: 
+401: Invalide uid or api_key
+200: Success - List object Array.
